@@ -90,8 +90,31 @@
    <footer>
    <div class="get-in-touch">
     <h1>Znajdź mnie</h1>
-    <p>Napisz do mnie przez GitHub, Telegram lub e-mail – odpowiadam szybko.</p>
+    <p>Napisz do mnie przez GitHub, Telegram lub e-mail  lub w formularzu ponizej – odpowiadam szybko.</p>
 </div>
+       <div class="contact-form">
+            <span class="material-symbols-outlined">contact_page</span>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Imię i Nazwisko</label>
+                    <input type="text" id="name" name="name" placeholder="Twoje imię..." required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Twój adres e-mail..." required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Wiadomość</label>
+                    <textarea id="message" name="message" rows="4" placeholder="W czym mogę pomóc?" required></textarea>
+                </div>
+                
+                <button type="submit" class="social-btn">
+                    <span class="material-symbols-outlined">send</span> Wyślij wiadomość
+                </button>
+            </form>
+        </div>
     </div>
         <div class="social-links">
             <a href="https://github.com/pmk33" target="_blank" class="social-btn">
