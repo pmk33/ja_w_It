@@ -269,12 +269,26 @@ footer p {
 }
 
 .form-group {
-  display: flex; 
+  display: flex;
   flex-direction: column;
-  border-radius: 8px;
+  gap: 8px; 
+  margin-bottom: 1.5rem;
+  position: relative;
+  width: 100%;
 }
-.form-group label{
-  background: transparent;
+.form-label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #374151;
+  cursor: pointer;
+  display: inline-block;
+  user-select: none;
+  transition: color 0.2s ease;
+}
+
+.form-group:focus-within .form-label {
+  color: #2563eb; /* Zmiana koloru labela przy pisaniu w polu */
+}
 
 @media (max-width: 768px) {
   .flex-container {
