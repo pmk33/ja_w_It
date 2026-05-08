@@ -267,10 +267,12 @@ footer p {
   transform: translateY(-3px);
   box-shadow: 0 4px 15px rgba(0, 212, 255, 0.3);
 }
-.form-group{
+.f
+.form-group {
   display: flex; 
   flex-direction: column;
   border-radius: 8px;
+}
 
 @media (max-width: 768px) {
   .flex-container {
